@@ -13,3 +13,23 @@ navLink.forEach((item)=>{
         mobMenu.classList.remove("active")
     })
 })
+
+// !popup
+
+let userBtn = document.querySelector(".user_account");
+let popUp = document.querySelector(".popup");
+let form = document.querySelector(".popup form");
+
+userBtn.addEventListener("click", function(event) {
+  popUp.style.display = "block";
+  event.stopPropagation();
+});
+
+form.addEventListener("click", function(event) {
+  event.stopPropagation();
+});
+
+document.addEventListener("click", function() {
+  popUp.style.display = "none";
+});
+
