@@ -1,0 +1,148 @@
+/* @import url(./style.css); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+@import url(./style.css);
+.cont{
+    display: flex;
+    flex-direction: column;
+    margin-top:5%;
+} .child-con{
+    display: flex;
+    flex-direction: row;
+} .text-con > div > h1 {
+    color: var(--, #241400);
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+margin-bottom:5%;
+} .text-con > div > p{
+    color: var(--, #241400);
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 196.187%;
+} .social-con > div > div > h3 {
+    color: var(--, #241400);
+font-family: Montserrat;
+font-size: 25px;
+font-style: normal;
+font-weight: 900;
+} .social-con{
+    margin-top:5%;
+    margin-bottom:5%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+} .social {
+    display: flex;
+    justify-content: space-between;
+    margin-top:5%;
+} .about-store{
+color: var(--2, #E16A00);
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+text-decoration-line: underline;
+} @media all and (max-width:290px){
+    .child-con{
+        display: flex;
+        flex-direction: column-reverse;
+        margin:5%;
+        margin-bottom:15%;
+    } .group-books{
+        width: 250px;
+        height: 250px;
+        margin-left: auto;
+        margin-right:auto;
+    } .text-con > div > p{
+        text-align: center;
+        font-size: 15px;
+    } .text-con > div > h1 {
+        text-align: center;
+    } .soc-icon {
+        width:50px;
+        height: 50px;
+    } .social {
+        justify-content: space-around;
+    } #soc-text{
+        color: var(--, #241400);
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+    } footer {
+        margin-top:10%;
+    }
+} @media all and (min-width:350px) and (max-width:500px){
+    .child-con{
+        display: flex;
+        flex-direction: column-reverse;
+        margin:5%;
+        margin-bottom:15%;
+    } .group-books{
+        width: 320px;
+        height: 320px;
+        margin-left: auto;
+        margin-right:auto;
+    } .text-con > div > p{
+        text-align: center;
+        font-size: 15px;
+    } .text-con > div > h1 {
+        text-align: center;
+    } .soc-icon {
+        width:50px;
+        height: 50px;
+    } .social {
+        justify-content: space-around;
+    } #soc-text{
+        color: var(--, #241400);
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+    }
+} @media all and (min-width:539px) and (max-width:599px){
+    .child-con{
+        display: flex;
+        flex-direction: column-reverse;
+        margin:3%;
+        margin-bottom:15%;
+    } .group-books{
+        width: 500px;
+        height: 500px;
+        margin-top:-10%;
+        margin-left: auto;
+        margin-right:auto;
+    } .text-con > div > p{
+        text-align: center;
+        font-size: 15px;
+    } .text-con > div > h1 {
+        text-align: center;
+    } .soc-icon {
+        width:50px;
+        height: 50px;
+    } .social {
+        justify-content: space-around;
+    } #soc-text{
+        color: var(--, #241400);
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+    }
+}
+@media all and (min-width:600px) and (max-width:949px){
+    .group-books{
+        width:300px;
+        height: 300px;
+    } .child-con{
+        margin:5%;
+    }
+} @media all and (min-width:950px) and (max-width:1200px){
+    .group-books{
+        width:500px;
+        height: 500px;
+    }
+}
