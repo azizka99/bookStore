@@ -1,12 +1,223 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Book page</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/e164bdcb7c.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
 
-</body>
+
+    <script src="./assets/scripts/index.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,200&family=Roboto+Condensed&family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,200&family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/book-page.css" />
+
+    <title>Book Page</title>
+
+  </head>
+  <body>
+    <div class="container">
+      <!--HEADER-->
+      <header>
+        <div class="logo">
+          <a href="./index.html"
+            ><img src="./assets/img/book-page/logo.svg" alt="logo"
+          /></a>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Home </a>
+            </li>
+            <li><a href="#">Catalog</a></li>
+            <li><a href="#">About Store</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Search</a></li>
+          </ul>
+        </nav>
+        <div class="user_account">
+          <i class="fa-regular fa-user"></i>
+          <span>Join us</span>
+        </div>
+        <!--HEADER-MOBILE VERSION-->
+        <nav class="mobile_menu">
+          <div class="navigate">
+            <ul>
+              <li>
+                <a href="#">Home </a>
+              </li>
+              <li><a href="#">Catalog</a></li>
+              <li><a href="#">About Store</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Search</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="mobil_account">
+          <div class="user_account">
+            <i class="fa-regular fa-user"></i>
+            <span>Join us</span>
+          </div>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </header>
+      <div class="popup">
+        <form action="">
+          <h3>Join Us</h3>
+          <input type="text" placeholder="Full name" />
+          <input type="email" placeholder="Email" />
+          <button>Join</button>
+        </form>
+      </div>
+     
+     
+      <!--MORE DETAILS ABOUT BOOK-->
+      <main>
+        <div class="detail-books">
+            <div class="more-detail">
+                <a href="#" class="back-button">< BACK</a>
+                <div class="press-year">2017</div>
+                <h2 class="book-name">Order in Chaos</h2>
+                <p class="add-date">2 days ago added</p>
+                <h5 class="author-name">Konstantin Koptelov</h5>
+                <p class="about-book">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, delectus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis distinctio quas maxime quisquam laboriosam natus a odio numquam minus quaerat.</p>
+            </div>
+            <div class="book-image"><img class="image-current-book" src="./assets/img/book-page/image 2.svg" alt="current -book"></div>
+        </div>
+
+
+        <div class="detail-books-mobile">
+          <div>
+              <a href="#" class="back-button-mobile">< BACK</a>
+              <img src="./assets/img/book-page/image 2.svg" class="book-image-mobile" alt="current -book">
+              <div class="press-year-mobile">2017</div>
+
+              <h2 class="book-name-mobile">Order in Chaos</h2>
+              
+              <h5 class="author-name-mobile">Konstantin Koptelov</h5>
+              <p class="about-book-mobile">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, delectus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis distinctio quas maxime quisquam laboriosam natus a odio numquam minus quaerat.</p>
+          </div>
+          
+      </div>
+
+      <!--ANONIM COMMENT BY USER-->
+        <div class="user-reaction">
+            <div class=" anonim-section" >
+                <input type="text" name="" id="" class="anonim-comment" placeholder="Your anonim comment...">
+                <button class="anonim-button"><img src="./assets/img/book-page/send.svg" alt=""></button>
+            </div>
+
+            <div class="comments">
+                <div>
+                  <div class="comment-details">
+                    <p  class="anonim-user">Anonim :</p>
+                    <div class="comment-date">
+                      <div>18:32</div>
+                      <p>today</p>
+                    </div>
+                  </div>
+                  <div class="comments-about-book"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis eius sint eligendi vel quisquam ea exercitationem tempora aperiam quidem nemo!</p></div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!--FOLLOW US ON SOCIAL MEDIA-->
+        <div class="social-media"> 
+          <h3>Follow us on social media</h3>
+          <div class="media-links">
+            <a href="www.facebook.com"><img class="facebook" src="./assets/img/book-page/akar-icons_facebook-fill.svg" alt="facebook"></a>
+            <a href="www.instagram.com"><img class="instagram" src="./assets/img/book-page/akar-icons_instagram-fill.svg" alt="instagram"></a>
+            <a href="www.twitter.com"><img class="twitter" src="./assets/img/book-page/twitter.svg" alt="twitter"></a>
+          </div>
+        </div>
+
+
+        <div class="social-media-mobile"> 
+          <h3>Follow us on social media</h3>
+          <div class="media-links-mobile">
+            <a href="www.facebook.com"><img class="facebook-mobile" src="./assets/img/book-page/akar-icons_facebook-fill.svg" alt="facebook"></a>
+            <a href="www.instagram.com"><img class="instagram-mobile" src="./assets/img/book-page/akar-icons_instagram-fill.svg" alt="instagram"></a>
+            <a href="www.twitter.com"><img class="twitter-mobile" src="./assets/img/book-page/twitter.svg" alt="twitter"></a>
+          </div>
+        </div>
+
+   
+    </main>
+
+    </div>
+
+
+    <!--FOOTER-->
+    <footer>
+      <div class="menu_bar">
+        <div class="logo">
+          <img src="./assets/img/book-page/footerlogo.svg" alt="logo" />
+        </div>
+        <div class="menus">
+          <div class="menu">
+            <ul>
+              <li><a href=""></a>Popular</li>
+              <li><a href=""></a>Programming</li>
+              <li><a href=""></a>Books for children</li>
+              <li><a href=""></a>Psychology</li>
+              <li><a href=""></a>Business</li>
+            </ul>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href=""></a>Cash</li>
+              <li><a href=""></a>Delivery</li>
+              <li><a href=""></a>Payment</li>
+              <li><a href=""></a>About the store</li>
+            </ul>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href=""></a>Help</li>
+              <li><a href=""></a>Contacts</li>
+              <li><a href=""></a>Purchase returns</li>
+              <li><a href=""></a>Buyer help</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="term">
+        <span
+          >All rights reserved © 2003-2021 LIBRARY TERMS OF USE | Privacy
+          Policy</span
+        >
+      </div>
+
+      <!--FOOTER MOBILE VERSION-->
+      <div class="mobile_footer">
+        <div class="logo">
+          <img src="../bookStore/assets/img/footerlogo.svg" alt="logo" />
+        </div>
+        <ul>
+          <li><a href=""></a>Home</li>
+          <li><a href=""></a>Catalog</li>
+          <li><a href=""></a>About</li>
+          <li><a href=""></a>Contact us</li>
+          <li><a href=""></a>Search</li>
+        </ul>
+        <div class="terms">
+          <p>Library BookStore EACamp</p>
+          <span>© 2003-2021</span>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
