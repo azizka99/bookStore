@@ -1,12 +1,346 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Catalog</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/e164bdcb7c.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
 
-</body>
+
+    <script src="./assets/scripts/catalog.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,200&family=Roboto+Condensed&family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,200&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/catalog.css">
+
+    <title>Catalog Page</title>
+
+  </head>
+  <body>
+            <div class="container">
+            <!--HEADER-->
+            <header>
+                <div class="logo">
+                <a href="./index.html"
+                    ><img src="./assets/img/catalog_page/logo (2).svg" alt="logo"
+                /></a>
+                </div>
+                <nav>
+                <ul>
+                    <li>
+                    <a href="#">Home </a>
+                    </li>
+                    <li><a href="#">Catalog</a></li>
+                    <li><a href="#">About Store</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Search</a></li>
+                </ul>
+                </nav>
+                <div class="user_account">
+                <i class="fa-regular fa-user"></i>
+                <span>Join us</span>
+                </div>
+                <!--HEADER-MOBILE VERSION-->
+                <nav class="mobile_menu">
+                <div class="navigate">
+                    <ul>
+                    <li>
+                        <a href="#">Home </a>
+                    </li>
+                    <li><a href="#">Catalog</a></li>
+                    <li><a href="#">About Store</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Search</a></li>
+                    </ul>
+                </div>
+                </nav>
+                <div class="mobil_account">
+                <div class="user_account">
+                    <i class="fa-regular fa-user"></i>
+                    <span>Join us</span>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                </div>
+            </header>
+            <div class="popup">
+                <form action="">
+                <h3>Join Us</h3>
+                <input type="text" placeholder="Full name" />
+                <input type="email" placeholder="Email" />
+                <button>Join</button>
+                </form>
+            </div>
+
+            </div>
+
+<!--All books-->
+            <main >
+                <div class="all-books">
+                    <div class="all-book-types">
+                        <h2>All books</h2>
+                        <ul class="book-types">
+                            <li>Fantasy</li>
+                            <li>Science</li>
+                            <li>Adventure</li>
+                            <li>Romance</li>
+                            <li>Detective</li>
+                            
+                        </ul>
+                      
+            
+                    </div>
+                    <div class="all-books-slider">
+                      <div class="card">
+                        
+                          <p class="new">New</p>
+                          <img src="./assets/img/catalog_page/image 2 (2).png" class="card-img-top" alt="...">
+                          <div class="card-body">
+                          <h5 class="card-title">Order in Chaos</h5>
+                          <p class="card-text">Konstantin Koptelov </p>
+                          <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                        
+                        
+                      </div>
+                      <div class="card" >
+                        <p class="new"></p>
+                        <img src="./assets/img/catalog_page/image 3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick </p>
+                          <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                      </div>
+                      <div class="card" >
+                        <p class="new">New</p>
+                        <img src="./assets/img/catalog_page/image 2 (2).png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick </p>
+                          <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                      </div>
+                      <div class="card" >
+                        <p class="new">New</p>
+                        <img src="./assets/img/catalog_page/image 2 (2).png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick </p>
+                          <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                      </div>
+                      <div class="card" >
+                        <p class="new">New</p>
+                        <img src="./assets/img/catalog_page/image 3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick </p>
+                          <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                      </div>
+                    </div>
+                      
+                </div>
+<!--Besteller-->       
+                <div class="besteller">
+                  <h3 class="b-type">Besteller</h3>
+                  <div class="besteller-books-slider">
+                    <div class="card" >
+                      <img src="./assets/img/catalog_page/image 3.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick </p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                      </div>
+                    </div>
+                    <div class="card" >
+                        <img src="./assets/img/catalog_page/image 3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick </p>
+                          <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                      </div>
+                      <div class="card" >
+                        <p class="new">New</p>
+                        <img src="./assets/img/catalog_page/image 3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick</p>
+                          <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                      </div>
+                    <div class="card" >
+                      <img src="./assets/img/catalog_page/image 3.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick </p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                      </div>
+                    </div>
+          
+                    <div class="card" >
+                      <img src="./assets/img/catalog_page/image 2 (1).png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick </p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<!--New releseas-->       
+                <div class="new-releseas">
+                  <h3 class="b-type">New releseas</h3>
+                  <div class="besteller-books-slider">
+                    <div class="card" >
+                      <p class="new">New</p>
+                      <img src="./assets/img/catalog_page/image 2 (2).png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick </p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                      </div>
+                    </div>
+                    <div class="card" >
+                      <p class="new">New</p>
+                        <img src="./assets/img/catalog_page/image 2 (2).png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick </p>
+                          <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                      </div>
+                      <div class="card" >
+                        <p class="new">New</p>
+                        <img src="./assets/img/catalog_page/image 2 (1).png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick </p>
+                          <a href="#" class="btn btn-primary">Read more</a>
+                        </div>
+                      </div>
+                    <div class="card" >
+                      <p class="new">New</p>
+                      <img src="./assets/img/catalog_page/image 2 (2).png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick </p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                      </div>
+                    </div>
+          
+                    <div class="card" >
+                      <p class="new">New</p>
+                      <img src="./assets/img/catalog_page/image 2 (1).png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick </p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             
+              
+                     
+              
+            </main>
+
+
+    
+            <!--FOLLOW US ON SOCIAL MEDIA-->
+            <div class="social-media"> 
+                <h3 class="Follow">Follow us on social media</h3>
+                <div class="media-links">
+                <a href="www.facebook.com"><img class="facebook" src="./assets/img/catalog_page/icons_facebook-fill.svg" alt="facebook"></a>
+                <a href="www.instagram.com"><img class="instagram" src="./assets/img/catalog_page/icons_instagram-fill (1).svg" alt="instagram"></a>
+                <a href="www.twitter.com"><img class="twitter" src="./assets/img/catalog_page/tvittericon.svg" alt="twitter"></a>
+                </div>
+            </div>
+    
+    
+            <div class="social-media-mobile"> 
+                <h3 class="Follow">Follow us on social media</h3>
+                <div class="media-links-mobile">
+                <a href="www.facebook.com"><img class="facebook-mobile" src="./assets/img/catalog_page/icons_facebook-fill.svg" alt="facebook"></a>
+                <a href="www.instagram.com"><img class="instagram-mobile" src="./assets/img/catalog_page/icons_instagram-fill (1).svg" alt="instagram"></a>
+                <a href="www.twitter.com"><img class="twitter-mobile" src="./assets/img/catalog_page/tvittericon.svg" alt="twitter"></a>
+                </div>
+            </div>
+
+
+    <!--FOOTER-->
+    <footer>
+      <div class="menu_bar">
+        <div class="logo">
+          <img src="./assets/img/catalog_page/footerlogo (2).svg" alt="logo" />
+        </div>
+        <div class="menus">
+          <div class="menu">
+            <ul>
+              <li><a href=""></a>Popular</li>
+              <li><a href=""></a>Programming</li>
+              <li><a href=""></a>Books for children</li>
+              <li><a href=""></a>Psychology</li>
+              <li><a href=""></a>Business</li>
+            </ul>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href=""></a>Cash</li>
+              <li><a href=""></a>Delivery</li>
+              <li><a href=""></a>Payment</li>
+              <li><a href=""></a>About the store</li>
+            </ul>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href=""></a>Help</li>
+              <li><a href=""></a>Contacts</li>
+              <li><a href=""></a>Purchase returns</li>
+              <li><a href=""></a>Buyer help</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="term">
+        <span
+          >All rights reserved © 2003-2021 LIBRARY TERMS OF USE | Privacy
+          Policy</span
+        >
+      </div>
+
+      <!--FOOTER MOBILE VERSION-->
+      <div class="mobile_footer">
+        <div class="logo">
+          <img src="../bookStore/assets/img/catalog_page/footerlogo (2).svg" alt="logo" />
+        </div>
+        <ul>
+          <li><a href=""></a>Home</li>
+          <li><a href=""></a>Catalog</li>
+          <li><a href=""></a>About</li>
+          <li><a href=""></a>Contact us</li>
+          <li><a href=""></a>Search</li>
+        </ul>
+        <div class="terms">
+          <p>Library BookStore EACamp</p>
+          <span>© 2003-2021</span>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
