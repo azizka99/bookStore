@@ -45,3 +45,74 @@ document.addEventListener("click", function() {
 
 
 
+//  const apiKey = "https://www.googleapis.com/books/v1/volumes?q=qaraqan";
+
+
+
+//  const btnSliderLeft = document.querySelector(".slider-btn-left");
+//  const btnSliderRight = document.querySelector(".slider-btn-rigth");
+
+
+// const swiper = new Swiper(".swiper", {
+//     direction: "horizontal",
+
+
+//     navigation: {
+//         nextEl: ".swiper-button-next",
+//         prevEl: ".swiper-button-prev",
+//     },
+
+//     speed: 800,
+// });
+
+// myForm.addEventListener("submit", (event) => {
+//   event.preventDefault();
+//   SLIDER.innerHTML = "";
+//   if (inputSearch.value !== "") {
+//       fetch(
+//           `https://www.googleapis.com/books/v1/volumes?q=${inputSearch.value}&key=${apiKey}`
+//       )
+//           .then((response) => response.json())
+//           .then((data) => {
+//               inputSearch.value = "";
+//               const dataItems = data.items;
+//               manageSlider(dataItems);
+//           });
+//   } else {
+//       alert("Fill in the blanks");
+//   }
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
